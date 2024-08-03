@@ -59,7 +59,7 @@ session_start();
                     </select>
                     <div class="input-group mb-3">
                         <label for="monto">Monto  </label>
-                        <input id="monto" type="number" class="text-dark " value="100" />
+                        <input id="monto" type="number" class="text-dark " value="100"  required="true"/>
                         <button type="submit" class=" d-block btn btn-outline-success "> Resultado</button>
                     </div>
                     <!--Aqui esta el resultado de la conversión-->
